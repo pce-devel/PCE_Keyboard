@@ -75,12 +75,51 @@ an input device.  However, it might be interesting to use the information presen
 for new software.
 
 
-## Emulation
+## Mednafen Emulation
 
 Interestingly, Mednafen has been able to support this keyboard for a long time, although this
-feature has been hidden, is undocumented, and has some oddities and minor issues.
+feature is basically undocumented and has some oddities and minor issues.
+
+### Test ROM
+
+The Mednafen functionality is meaningless unless you have a program which scans the keyboard
+properly, as the Tsuushin Booster program does.
+
+I have written a test ROM which will display which keys are pressed.
+[More information can be found here: TestROM.md](TestROM.md)
 
 
-### Use of Macropad
+### How to Activate Keyboard Emulation on Mednafen
 
-Test program for PCE Keyboard
+First, you need to edit the "mednafen.cfg" file, and update the following line to:
+```
+pce.input.port1  tsushinkb
+```
+
+This will enable the Tsuushin Keyboard code to be activated, but it also requires "Input Grabbing" to be
+turned on. While the emulator is running, enable this by holding (Left Shift)+(Control), then pressing the "menu"
+key.  (On my Mac keyboard, this is the "Command" key on the right side of the space bar).
+
+
+### Notes About Mednafen's Implementation
+
+Double-mapped keys:
+1) The '=' key on a North American keyboard shows up as both (Yen Sign) and '^' due to double-mapping.
+
+
+Keys without mapping:
+1) Keypad keys '=' (equals) and ',' (comma) simply don't exist on the keypad, so there are no mappings for these.
+GRPH, KANA, HENKOU, KETTEI, PC, Width
+
+Keys with Confusing Mappings:
+1) The backtick/tilde key (`/~) key on a North American keyboard is mapped as '@'.
+
+Renamed keys:
+1) The "Page Down" key on a North American keyboard is mapped as "Roll Down"
+2) The "Page Up" key on a North American keyboard is mapped as "Roll Up"
+
+
+### Overcoming These Limitations By Using a Macropad
+
+
+

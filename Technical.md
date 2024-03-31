@@ -28,6 +28,11 @@ is represented in nearly an identical format (except for the 7-bits per byte).
 | Byte #9          | '1' | (Not Used ?) | KANA | GRPH | (Not Used ?) | Right Arrow | Up Arrow | CLEAR | |
 | Byte #10         | '1' | Space | F5 | F4 | F3 | F2 | F1 | STOP | |
 | Byte #11         | '1' | KeyPad / | KeyPad - | COPY | HELP | Left Arrow | Down Arrow | Tab | |
+| Byte #12         | '1' | G | _ (underscore) | O | (Not Used ?) | (Not Used ?) | Roll Up | Roll Down | |
+| Byte #13         | '1' | Insert | Backspace | F10 | F9 | F8 | F7 | F6 | |
+| Byte #14         | '1' | W | KeyPad 7 | Control | ZENKAKU (Width) | PC | KETTEI (unconvert) | HENKOU (convert) |  |
+| Byte #15         | '1' | Escape | Delete | Caps Lock | Right Shift | Left Shift | KeyPad Enter | Return |  |
+| Byte #16         | '1' | 7 | - (Minus) | (Not Used ?) | (Not Used ?) | (Not Used ?) | (Not Used ?) | (Not Used ?) |  |
 | Byte #17         | '0' | '0' | '0' | '0' | '0' | '0' | '1' | '0' | End Byte |
 
 ## Emulation
