@@ -75,12 +75,11 @@ an input device.  However, it might be interesting to use the information presen
 for new software.
 
 
-## Encoding Method
-
-The similarities to the PC-88 keyboard don't end at the style and layout; the keypress information
-is represented in an extremely similar way.
-
 ## Emulation
+
+Interestingly, Mednafen has been able to support this keyboard for a long time, although this
+feature has been hidden, is undocumented, and has some oddities and minor issues.
+
 
 ### Use of Macropad
 
