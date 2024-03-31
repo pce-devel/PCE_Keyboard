@@ -1,13 +1,16 @@
 # Tsuushin Keyboard - Technical
 
-A technical overviw of the unreleased Tsuushin Keyboard
+A technical overview of the unreleased Tsuushin Keyboard
 
 ## Technical Overview
 
 The Tsuushin Keyboard is capable of transmitting the state of up to 112 keys.
-It does this by acting as a set of controllers via multiap, sending a start byte, followed
-by 16 bytes of data (where only 7 bits are encoded in each), and an end byte, in the same
-way as a giant-sized multiap might present 18 controllers to the host.
+It does this by acting as a set of joypad-like controllers via multiap, sending:
+- a start byte
+- followed by 16 bytes of data (where only 7 bits are encoded in each), and
+- an end byte
+
+...in the same way as a giant-sized multiap might present 18 controllers to the host.
 
 ## Encoding Method
 
