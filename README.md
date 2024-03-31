@@ -1,6 +1,10 @@
 # Tsuushin Keyboard
 
-Temporary location for PCE keyboard
+The unreleased PC Engine keyboard
+
+## Technical Overview
+
+See [Technical overview here: Technical.md](Technical.md)
 
 ## History of Tsuushin Keyboard
 
@@ -26,7 +30,6 @@ the way in which the Tsuushin Booster ROM reads (and interacts) with the (imagin
 NOTE: Please do not ask me for the ROM; I will not share it. However, I happily share the results of my research.
 
 
-
 ### Differences from Modern Japanese Keyboards and Entry
 
 First, I should mention that keyboards around the world have had many different layouts over the
@@ -44,7 +47,7 @@ KANA), the "ZENKAKU" key is now labelled "HAN/ZEN KANJI" (for narrow or full-wid
 these keys have changed position and/or size/shape.
 
 MISSING from today's keyboard, the following keys used to exist: GRPH, PC, and several keys on the numeric keypad
-(',', '=', CLR and HELP). Also, STOP and COPY (to the left of the PC-88 function keys).
+(',' , '=', CLR and HELP). Also, STOP and COPY (to the left of the PC-88 function keys).
 
 See next section for a picture of a PC-88 keyboard.
 
@@ -75,7 +78,7 @@ for new software.
 ## Encoding Method
 
 The similarities to the PC-88 keyboard don't end at the style and layout; the keypress information
-is represented in an extremely similat way.
+is represented in an extremely similar way.
 
 ## Emulation
 
