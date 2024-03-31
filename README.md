@@ -122,7 +122,7 @@ key.  (On my Mac keyboard, this is the "Command" key on the right side of the sp
 ### Mednafen's Implementation and Using a MacroPad
 
 Mednafen identifies a keypress based on a list of keyboard scancodes in the mednafen.cfg file
-what look like this (example shows the '0' (zero) key):
+which look like this (example shows the '0' (zero) key):
 ```
 ;pce, Port1, Tshushin Keyboard: 0
 pce.input.port1.tsushinkb.0 keyboard 0x0 39
@@ -131,6 +131,11 @@ pce.input.port1.tsushinkb.0 keyboard 0x0 39
 These are scancodes for a North American keyboard; unfortunately, the French AZERTY keyboard (and
 some others) will need a slightly different set of scancodes for their keyboard layouts. It's more
 confusing than it is complicated, and a headache either way.
+
+I'm sure that readers in France already knew this... but on the bright side, this makes Mednafen
+completely reconfigurable, so it can be fixed if somebody has enough patience to create better mappings.
+
+However, there are still some problems even for "standard" North American keybords:
 
 1. Many keyboards (such as my own) don't have enough keys to satisfy the needs of the Tsuushin Keyboard
 
