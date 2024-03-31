@@ -25,7 +25,7 @@ Note that the "(Not In Use)" keys may correspond to a key, but these are current
 | Byte #3          | '1' | F | E | D | C | B | A | @ | |
 | Byte #4          | '1' | N | M | L | K | J | I | H | |
 | Byte #5          | '1' | V | U | T | S | R | Q | P | |
-| Byte #6          | '1' | ^ | ] | Yen Sign | [ | Z | Y | X | |
+| Byte #6          | '1' | ^ | ] | Yen Sign | \[ | Z | Y | X | |
 | Byte #7          | '1' | 6 | 5 | 4 | 3 | 2 | 1 | 0 | |
 | Byte #8          | '1' | / | . | , | ; | : | 9 | 8 | |
 | Byte #9          | '1' | (Not Used ?) | KANA | GRPH | (Not Used ?) | Right Arrow | Up Arrow | CLEAR | |
