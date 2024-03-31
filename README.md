@@ -103,20 +103,20 @@ key.  (On my Mac keyboard, this is the "Command" key on the right side of the sp
 
 ### Notes About Mednafen's Implementation
 
-Double-mapped keys:
-1) The '=' key on a North American keyboard shows up as both (Yen Sign) and '^' due to double-mapping.
+**Double-mapped keys:**
+1. The '=' key on a North American keyboard shows up as both (Yen Sign) and '^' due to double-mapping.
 
 
-Keys without mapping:
-1) Keypad keys '=' (equals) and ',' (comma) simply don't exist on the keypad, so there are no mappings for these.
+**Keys without mapping:**
+1. Keypad keys '=' (equals) and ',' (comma) simply don't exist on the keypad, so there are no mappings for these.
 GRPH, KANA, HENKOU, KETTEI, PC, Width
 
-Keys with Confusing Mappings:
-1) The backtick/tilde key (`/~) key on a North American keyboard is mapped as '@'.
+**Keys with Confusing Mappings:**
+1. The backtick/tilde key (`/~) key on a North American keyboard is mapped as '@'.
 
-Renamed keys:
-1) The "Page Down" key on a North American keyboard is mapped as "Roll Down"
-2) The "Page Up" key on a North American keyboard is mapped as "Roll Up"
+**Renamed keys:**
+1. The "Page Down" key on a North American keyboard is mapped as "Roll Down"
+2. The "Page Up" key on a North American keyboard is mapped as "Roll Up"
 
 
 ### Overcoming These Limitations By Using a Macropad
