@@ -21,7 +21,7 @@ never heard any reports of seeing an actual device in person. However, we can in
 information from pictures which were published, from other computers of the era, and from
 the way in which the Tsuushin Booster ROM reads (and interacts) with the (imaginary) device.
 
-[More information on the Tsuushin Booster can be found here: https://www.chrismcovell.com/TsuushinBooster/](https://www.chrismcovell.com/TsuushinBooster/)
+[More information on the Tsuushin Booster can be found here: https://www.chrismcovell.com/TsushinBooster/](https://www.chrismcovell.com/TsushinBooster/)
 
 NOTE: Please do not ask me for the ROM; I will not share it. However, I happily share the results of my research.
 
