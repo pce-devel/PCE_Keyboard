@@ -142,13 +142,13 @@ However, there are still some problems even for "standard" North American keybor
 2. There are some errors and omissions in the Mednafen configuration - some of the Tsuushin keys are
 not mapped at all, and cannot be pressed.  Others (such as '^' and Yen sign) are both mapped to the same
 key (in this case, '='), and a couple more are mapped to keys which are intercepted by the Operating
-System, so they don't get passed through to Mednafen... so all of these need to be resolved as well.
+System, so they don't get passed through to Mednafen... so all of these problems need to be resolved as well.
 
 3. In addition, some of the keys are mapped, but may have different names on the new keyboard, and exist
 in completely different (and sometimes inconvenient) locations.
 
-For all of these reasons, I am using a MacroPad to create some of the keystrokes because it's so
-convenient to do it this way.  If you have an Adafruit MacroPad RP2040, you can do the same.  (See below)
+For all of these reasons, I am using a MacroPad to create some of the keystrokes.\
+If you have an Adafruit MacroPad RP2040, you can do the same.  (See below)
 
 **Note the following New Key Names:**
 
