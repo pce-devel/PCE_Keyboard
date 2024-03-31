@@ -17,7 +17,7 @@ It does this by acting as a set of joypad-like controllers via multiap, sending:
 The similarities to the PC-88 keyboard don't end at the style and layout; the keypress information
 is represented in nearly an identical format (except for the 7-bits per byte).
 
-Note that the "(Not In Use)" keys may correspond to a key, but these are currently no known or understood.
+Note that the "(Not In Use)" keys may correspond to a key, but these are currently not known or understood.
 
 
 | Byte in Sequence | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 | Comment |
