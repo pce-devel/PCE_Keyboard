@@ -23,6 +23,11 @@ is represented in nearly an identical format (except for the 7-bits per byte).
 | Byte #4          | '1' | N | M | L | K | J | I | H | |
 | Byte #5          | '1' | V | U | T | S | R | Q | P | |
 | Byte #6          | '1' | ^ | ] | Yen Sign | [ | Z | Y | X | |
+| Byte #7          | '1' | 6 | 5 | 4 | 3 | 2 | 1 | 0 | |
+| Byte #8          | '1' | / | . | , | ; | : | 9 | 8 | |
+| Byte #9          | '1' | (Not Used ?) | KANA | GRPH | (Not Used ?) | Right Arrow | Up Arrow | CLEAR | |
+| Byte #10         | '1' | Space | F5 | F4 | F3 | F2 | F1 | STOP | |
+| Byte #11         | '1' | KeyPad / | KeyPad - | COPY | HELP | Left Arrow | Down Arrow | Tab | |
 | Byte #17         | '0' | '0' | '0' | '0' | '0' | '0' | '1' | '0' | End Byte |
 
 ## Emulation
