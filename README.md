@@ -6,12 +6,13 @@ The unreleased PC Engine keyboard
 
 See [Technical overview here: Technical.md](Technical.md)
 
-## History of Tsuushin Keyboard
+## History of the Tsuushin Keyboard
 
 In 1989/1990, NEC and Hudson were working on an expansion device for the PC Engine called
-the Tshusin Booster, which would bring modem capabilities to the PC Engine. This device was
-never brought to market, and was cancelled in 1990. Very few units were ever produced, so it
-is unlikely that you would be able to locate one these days at any price.
+the Tsuushin Booster, which would bring modem capabilities to the PC Engine. This device was
+never brought to market, and was cancelled in 1990. Very few units were ever produced (as they
+were only sample units or used for internal development and testing), so it is unlikely that
+you would be able to locate one these days at any price.
 
 The software component of the Tshushin Booster added several interesting capabilites besides
 actual modem-based communication.  It added:
@@ -20,7 +21,7 @@ actual modem-based communication.  It added:
 - Sprite and Character graphic editors
 - Support for a keyboard device
 
-The Keyboard device is probably even more rare than the Tsuushin Booster itself, and I have
+The Keyboard device is probably even more rare than the Tsuushin Booster itself; I have
 never heard any reports of seeing an actual device in person. However, we can infer a lot of
 information from pictures which were published, from other computers of the era, and from
 the way in which the Tsuushin Booster ROM reads (and interacts) with the (imaginary) device.
@@ -35,8 +36,8 @@ NOTE: Please do not ask me for the ROM; I will not share it. However, I happily 
 ### Differences in Layout from Modern Japanese Keyboards
 
 First, I should mention that keyboards around the world have had many different and changing layouts over
-the decades. Even the "standard" North American English IBM PC keyboard layout was not alone prior to the
-IBM PC becoming the most popular computer in North America. If you don't believe this, please take a
+the decades. Even the "standard" North American English IBM PC keyboard layout was not so standard prior
+to the IBM PC becoming the most popular computer in North America. If you don't believe this, please take a
 look at keyboard layouts for old typewriters or even computers like the Apple II or TRS-80 from the 1980's.
 In particular, check the location of the "@" sign, quotation mark, apostrophe, and so on.
 
@@ -45,20 +46,21 @@ multiple character sets.  Even these keys are not the same today as they were on
 the 1980's.
 
 While many of the special Japanese keys still exist on a modern Japanese keyboard (such as HENKOU, KETTEI,
-KANA), the "ZENKAKU" key is now labelled "HAN/ZEN KANJI" (for narrow or full-width characters), and all of
-these keys have changed position and/or size/shape.
+KANA), all of these keys have changed position and/or size/shape and/or name (for example, the "ZENKAKU"
+key, for narrow or full-width characters, is no labelled "HAN/ZEN KANJI").
 
-MISSING from today's keyboard, the following keys used to exist: GRPH, PC, and several keys on the numeric keypad
-(',' , '=', CLR and HELP). Also, STOP and COPY (to the left of the PC-88 function keys).
+**MISSING** from today's keyboard, the following keys used to exist: GRPH, PC, and several keys on the numeric keypad
+(',' (comma), '=', CLR and HELP). Also, STOP and COPY (to the left of the PC-88 function keys).
 
 See the "PC-88 Similarities" section below for a picture of a PC-88 keyboard.
 
-### Differences in Usage from Modern Japanese Keyboards
+### Differences in Entry from Modern Japanese Keyboards
 
-The main entry method for Japanese text today is by typing Romaji, while the keyboard is in
-"Japanese" language mode.  This input method is switched in the Operating System by a special
-key sequence.  Many modern Japanese keyboards still have hiragana printed on the keys next to
-the roman letters; this is in order to support another, older hiragana input method.
+The main entry method for Japanese text today is by typing Romaji, while the keyboard is in "Japanese"
+"Japanese" language mode, and being prompted with various ways that it could be written - in both kanji and kana.
+This input method is switched between languages and even input methods in the Operating System by special key
+sequences.  Many modern Japanese keyboards still have hiragana printed on the keys next to roman letters;
+this is in order to support another, older hiragana input method.
 
 Without going into too much detail, this older method is the one which was primarily in use at
 the time of the PC-88 and Tsuushin Keyboards.  The mode would be switched by using the HENKOU,
@@ -69,7 +71,7 @@ MacOS Operating Systems.
 ### PC-88 Layout Similarities
 
 Based on a rare photograph from a magazine scan during its development period, the Tsuushin Booster
-keyboard appears to have beeb based directly on a PC-88 keyboard.  This shows from not only its shape
+keyboard appears to have been based directly on a PC-88 keyboard.  This shows from not only its shape
 and style, but also the number of keys and their layout.  If the picture was clear enough, it would
 almost certainly show the same labels on the keys.
 
@@ -83,7 +85,7 @@ Photo of PC-88 keyboard for comparison:
 ![PC-88 Keyboard](images/PC-88_keyboard.jpg)
 
 
-## Software which uses it
+## Software Which Uses the Keyboard
 
 Aside from the Tsuushin Booster, I am not aware of any software which could use the Tsuushin Keyboard as
 an input device.
@@ -101,7 +103,7 @@ undocumented and has some issues.
 The Mednafen functionality is meaningless unless you have a program which scans the keyboard
 properly, as the Tsuushin Booster program does.
 
-I have written a test ROM which will display which keys are pressed.
+I have written a test ROM which will display which keys are pressed.\
 [More information can be found here: TestROM.md](TestROM.md)
 
 
