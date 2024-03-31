@@ -15,7 +15,7 @@ The similarities to the PC-88 keyboard don't end at the style and layout; the ke
 is represented in nearly an identical format (except for the 7-bits per byte).
 
 | Byte in Sequence | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 | Comment |
-+------------------+-------+-------+-------+-------+-------+-------+-------+-------+---------|
+|------------------|-------|-------|-------|-------|-------|-------|-------|-------|---------|
 | Byte #0          | '0' | '0' | '0' | '0' | '0' | '0' | '1' | '0' | Start Byte - Literal bit values |
 | Byte #1          | '1' | KyPd 6 | KyPd 5 | KyPd 4 | KyPd 3 | KyPd 2 | KyPd 1 | Kypd 0 | Data - '0' value when key pressed; '1' value otherwise |
 | Byte #2          | '1' | KyPd . | KyPd , | KyPd = | KyPd + | KyPd * | KyPd 9 | Kypd 8 | |

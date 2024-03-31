@@ -83,4 +83,4 @@ feature has been hidden, is undocumented, and has some oddities and minor issues
 
 ### Use of Macropad
 
-Teso program for PCE Keyboard
+Test program for PCE Keyboard
