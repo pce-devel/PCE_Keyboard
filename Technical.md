@@ -1,6 +1,6 @@
-# Tsuushin Keyboard
+# Tsuushin Keyboard - Technical
 
-The unreleased PC Engine Keyboard
+A technical overviw of the unreleased Tsuushin Keyboard
 
 ## Technical Overview
 
@@ -45,7 +45,9 @@ For comparison, Joypad keys are as follows:
 | Joypad Values    | Left | Down | Right | Up | Run | Select | II | I | Top 4 bits cannot be all zeroes on regular joypad | 
 
 
-## Emulation
+### Comparison to PC-88 Encoding
 
-### Use of Macropad
+The PC-88 encoding pattern above can be compared against the PC-88 pattern found here:
+[https://www.leadedsolder.com/2018/04/14/pc88-keyboard-follies.html](https://www.leadedsolder.com/2018/04/14/pc88-keyboard-follies.html)
+
 
