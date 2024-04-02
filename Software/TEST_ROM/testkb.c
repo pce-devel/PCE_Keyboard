@@ -42,6 +42,8 @@ const char scan14[] = { " 1   W  Kp7 CtrlWid PC  NCvtCvt " };
 const char scan15[] = { " 1  Esc Del CpLkRSh LSh PdEnRet " };  
 const char scan16[] = { " 1   7   -  N/A N/A N/A N/A N/A " };  
 
+const char scanjoy[] = { "Lft Dwn Rt  Up  Run Sel II   I  " };  
+
 char LineText[580];
 
 char CurrLine[50];
@@ -195,25 +197,28 @@ main()
       {
          pad = keyinput[i];
 
-         strncpy(CurrLine, &LineText[(i*32)], 33);
+         if (keyinput[0] == 0x02)
+            strncpy(CurrLine, &LineText[(i*32)], 33);
+         else
+            strncpy(CurrLine, &scanjoy[0], 33);
 
          mask = 0x80;
 
          for (j = 0; j < 8; j++)
          {
-            if ((pad & mask) != 0) {
-               set_font_pal(0);
-               binary[j] = '1';
+            // highlight pressed keys; disregard zeroes on first
+            // and last lines if Keyboard identifier is found
+            // (i.e. keyinput[0] == 0x02)
+            if ((keyinput[0] == 0x02) && ((i == 0) || (i == 17))) {
+               set_font_pal(4);
             }
             else {
-               // highlight pressed keys; disregard zeroes on first
-	       // and last lines if Keyboard identifier is found
-	       // (i.e. keyinput[0] == 0x02)
-               if ((keyinput[0] == 0x02) && ((i == 0) || (i == 17)))
+               if ((pad & mask) != 0) {
                   set_font_pal(0);
-               else
+               }
+               else {
                   set_font_pal(1);
-               binary[j] = '0';
+               }
             }
 
             strncpy(CurrLabel, &CurrLine[j*4], 4);
