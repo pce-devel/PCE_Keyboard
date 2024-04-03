@@ -33,16 +33,16 @@ const char scan5[]  = { " 1   V   U   T   S   R   Q   P  " };
 const char scan6[]  = { " 1   ^   ]  Yen  [   Z   Y   X  " };  
 const char scan7[]  = { " 1   6   5   4   3   2   1   0  " };  
 const char scan8[]  = { " 1   /   .   ,   ;   :   9   8  " };  
-const char scan9[]  = { " 1  N/A KANAGRPHN/A Rt  Up  CLR " };  
-const char scan10[] = { " 1  Spc F5  F4  F3  F2  F1  STOP" };  
-const char scan11[] = { " 1  Pd/ Pd- HELPCOPYLft Dn  Tab " };  
+const char scan9[]  = { " 1  N/A KANAGRPHN/A  Rt  Up CLR " };  
+const char scan10[] = { " 1  Spc  F5  F4  F3  F2  F1 STOP" };  
+const char scan11[] = { " 1  Pd/ Pd- HELPCOPYLft  Dn Tab " };  
 const char scan12[] = { " 1   G   _   O  N/A N/A RUp RDn " };  
-const char scan13[] = { " 1  Ins BkspF10 F9  F8  F7  F6  " };  
-const char scan14[] = { " 1   W  Kp7 CtrlWid PC  NCvtCvt " };  
+const char scan13[] = { " 1  Ins BkspF10  F9  F8  F7  F6 " };  
+const char scan14[] = { " 1   W  Pd7 CtrlWid  PC NCvtCvt " };  
 const char scan15[] = { " 1  Esc Del CpLkRSh LSh PdEnRet " };  
 const char scan16[] = { " 1   7   -  N/A N/A N/A N/A N/A " };  
 
-const char scanjoy[] = { "Lft Dwn Rt  Up  Run Sel II   I  " };  
+const char scanjoy[] ={ "Lft Dwn  Rt  Up Run Sel  II  I  " };  
 
 char LineText[580];
 
