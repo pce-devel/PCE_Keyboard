@@ -64,6 +64,3 @@ In this design, I opted not to use PIOs, as the GPIOs have a fast enough respons
 ![Japanese keyboard](../images/JPN_USB_Keybd.png)
 
 
-## Notes
-
-1. I am also considering creating a version fo the board using the RP2040 chip directly.

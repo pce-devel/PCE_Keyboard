@@ -197,3 +197,10 @@ I am using the following Circuit Python project as a base:
 [Software/Adafruit_MacroPad/Tsushin.py](Software/Adafruit_MacroPad)
 
 
+### Hardware Implementation Using a Japanese USB Keyboard
+
+I have also implemented this on a microcontroller board and put the infromation in this repository.
+
+[See Here](Hardware/Readme.md)
+
+
