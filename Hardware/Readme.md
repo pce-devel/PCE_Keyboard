@@ -1,4 +1,4 @@
-# PCE_Keyboard - PC Engine USB Japanese Keyboard converter
+# PCE_Keyboard - PC Engine USB Japanese Keyboard Converter
 
 ## Overview
 

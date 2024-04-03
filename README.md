@@ -93,6 +93,13 @@ an input device.
 ...However, it might be interesting to use the information presented in this repository for new software.
 
 
+## Hardware Implementation Using a Japanese USB Keyboard
+
+I have implemented this on a microcontroller board and put the information in this repository.
+
+[All Information Can be Found Here](Hardware/Readme.md)
+
+
 ## Mednafen Emulation
 
 Interestingly, Mednafen has supported this keyboard for a long time, although this feature is basically
@@ -196,11 +203,5 @@ I am using the following Circuit Python project as a base:
 ...And I created the following page for listing the most confusing keys and creating their scancodes:
 [Software/Adafruit_MacroPad/Tsushin.py](Software/Adafruit_MacroPad)
 
-
-### Hardware Implementation Using a Japanese USB Keyboard
-
-I have also implemented this on a microcontroller board and put the infromation in this repository.
-
-[See Here](Hardware/Readme.md)
 
 
