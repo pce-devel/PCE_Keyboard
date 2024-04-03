@@ -61,7 +61,7 @@ In this design, I opted not to use PIOs, as the GPIOs have a fast enough respons
 
 ### Key Mapping:
 
-![Japanese keyboard](../images/JPN_USB_Keybd.jpg)
+![Japanese keyboard](../images/JPN_USB_Keybd.png)
 
 
 ## Notes
